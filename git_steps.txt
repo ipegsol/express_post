@@ -1,0 +1,11 @@
+mnelson:Desktop mnelson$ cd myproject/
+
+mnelson:myproject mnelson$ git init
+
+
+
+Step 2: Add a new file to the repo
+mnelson:myproject mnelson$ touch mnelson.txt
+
+
+mnelson:myproject mnelson$ git status
