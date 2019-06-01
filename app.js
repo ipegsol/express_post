@@ -1,5 +1,9 @@
 /* 
+
+PORT ABOVE 1024 ONLY
 */
+//Non-privileged user (not root) can't open a listening socket on ports below 1024.
+
 
 var express = require('express');
 var app = express();
@@ -56,7 +60,7 @@ app.get('/ab*cd', function(req, res) {
    res.send('Page Pattern Match');
 })
 
-var server = app.listen(80, function () {
+var server = app.listen(1025, function () {
    var host = server.address().address
    var port = server.address().port
    
