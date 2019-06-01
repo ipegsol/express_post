@@ -22,7 +22,7 @@ app.get('/', function (req, res) {
    console.log("Got a GET request for the homepage");
 
    var page = `
-      <h1>Hello World</h1>
+      <h1>Hello Git World</h1>
   
       <hr>
       <form method = "POST" action = "http://localhost:8081/somepage">
