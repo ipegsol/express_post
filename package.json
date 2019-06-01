@@ -1,4 +1,12 @@
 {
+  "name": "Nikhil Express Post App",
+  "version": "1.0.0",
+  "description": "Testing Heroku",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+
   "requires": true,
   "lockfileVersion": 1,
   "dependencies": {
